@@ -1,0 +1,256 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+/* -------------------------------- */
+/* Welcome */
+/* -------------------------------- */
+.nav {
+  display: flex;
+  /* text-align: center; */
+  justify-content: space-between;
+  align-content: flex-end;
+  padding: 25vh 12vw;
+}
+.nav-link {
+  font-size: 24px;
+  font-family: "Rubik Mono One", sans-serif;
+  animation: nav 4s ease-in-out infinite;
+}
+.nav a:hover {
+  color: #fd4747;
+}
+.welcome-image {
+  position: relative;
+  height: 100vh;
+  background-image: url(../images/1.jpg);
+  background-size: cover;
+  background-position: top;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.welcome-inner {
+  text-align: center;
+  color: #fff;
+  font-size: 35px;
+}
+.welcome-inner h1 {
+  font-family: "Rubik Mono One", sans-serif;
+  margin-top: 10px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  animation: JDH1 3s ease-in-out;
+}
+.welcome-inner p {
+  padding-top: 20px;
+  font-family: "Geologica", sans-serif;
+  animation: JDH2 3.5s ease-in-out;
+  font-weight: 300;
+  font-size: 32px;
+}
+/* -------------------------------- */
+/* Story */
+/* -------------------------------- */
+.story {
+  margin: 20vh 0;
+}
+.story-title {
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Geologica", sans-serif;
+  font-size: 24px;
+}
+.story-subtitle {
+  text-align: center;
+  font-family: "Geologica", sans-serif;
+  font-size: 24px;
+}
+.story-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.story-image {
+  margin: 25px;
+  width: 40%;
+  animation: image 4s ease-in-out infinite;
+}
+.story-image img {
+  width: 100%;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  box-shadow: 25px 25px 50px #bebebe;
+}
+.story-text {
+  font-family: "Nunito", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  width: 50%;
+  margin: 25px;
+}
+/* Story 2 */
+.story2-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 75px;
+}
+.story2-image {
+  margin: 25px;
+  width: 35%;
+  animation: image 4s ease-in-out infinite;
+  animation-delay: 1s;
+}
+.story2-image img {
+  width: 100%;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  box-shadow: 25px 25px 50px #bebebe;
+}
+/* Story 3 */
+.story3-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 25px;
+}
+.story3-image {
+  margin: 40px;
+  width: 60%;
+}
+.story3-image img {
+  width: 100%;
+  border-radius: 50px;
+  box-shadow: 0px 1.4px 2.2px rgba(0, 0, 0, 0.042),
+    0px 3.3px 5.3px rgba(0, 0, 0, 0.06), 0px 6.3px 9.9px rgba(0, 0, 0, 0.074),
+    0px 11.2px 17.6px rgba(0, 0, 0, 0.089), 0px 20.9px 33px rgba(0, 0, 0, 0.107),
+    0px 50px 79px rgba(0, 0, 0, 0.15);
+}
+.story3text {
+  font-family: "Nunito", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  width: 80%;
+}
+/* -------------------------------- */
+/* Info */
+/* -------------------------------- */
+.info {
+  margin-bottom: 20vh;
+}
+.info-title {
+  text-align: center;
+  font-family: "Geologica", sans-serif;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.info-subtitle {
+  text-align: center;
+  font-family: "Geologica", sans-serif;
+  font-size: 24px;
+}
+.info-inner {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.info-image {
+  width: 50%;
+  animation: image 4s ease-in-out infinite;
+}
+.info-image img {
+  width: 100%;
+  border-radius: 50px;
+  box-shadow: 25px 25px 50px #bebebe;
+}
+.infotext {
+  margin: 0 25px;
+  padding: 0 40px;
+  width: 40%;
+  font-family: "Nunito", sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+}
+/* -------------------------------- */
+/* Footer */
+/* -------------------------------- */
+.footer-wave {
+  transform: translateY(4px);
+}
+.footer-inner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0;
+  background-color: #9336b4;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+}
+.footer-column {
+  font-size: 20px;
+}
+.footer-column p {
+  padding: 10px 0;
+}
+.footer-list li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.footer-column a:hover {
+  color: #bebebe;
+}
+/* -------------------------------- */
+/* Animation */
+/* -------------------------------- */
+@keyframes JDH1 {
+  0% {
+    transform: translateY(100px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes JDH2 {
+  0% {
+    transform: translateY(100px);
+  }
+  70% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes nav {
+  60% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes image {
+  50% {
+    transform: translateY(-15px);
+  }
+}
